@@ -9,7 +9,7 @@ const HighlightDetails = () => {
         fetch('http://localhost:5000/Highlights/' + Highlights.id, {
             method : 'DELETE'
         }).then(() => {
-            navigate('/');
+            navigate('/Highlights');
         }) 
     }
     return ( 

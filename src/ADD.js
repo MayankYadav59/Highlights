@@ -16,7 +16,7 @@ const Add = () => {
             body : JSON.stringify(Highlight)
         }).then (() => {
             console.log('New Highlight added');
-            navigate('/');
+            navigate('/Highlights');
         });
     }
     return (  

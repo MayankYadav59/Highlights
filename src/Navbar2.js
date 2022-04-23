@@ -14,7 +14,7 @@ const Navbar2 = () => {
                 </button> 
             </span>
             <span className = "text-3xl font-bold right-100">
-            <button className = "bg-stone-900 text-white rounded-md p-2 text-lg mr-2" ><Link to = "/">Home</Link></button>
+            <button className = "bg-stone-900 text-white rounded-md p-2 text-lg mr-2" ><Link to = "/Highlights">Home</Link></button>
                 <button className = "bg-stone-900 text-white rounded-md p-2 text-lg mr-20" ><Link to = "/Add"><i class="bi bi-file-earmark-fill"></i></Link></button>    
             </span>    
         </div>

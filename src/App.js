@@ -14,7 +14,7 @@ import Buckets from './bucket';
                       <Navbar2 />
                         <div className="content">
                           <Routes>
-                            <Route exact path = "/" element={<Home/>}>
+                            <Route exact path = "/Highlights" element={<Home/>}>
                             </Route>
                             <Route path = "/Add" element={<Add/>}>
                             </Route>
