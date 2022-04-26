@@ -6,9 +6,11 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Add from './ADD';
 import HighlightDetails from './HighlightDetails';
 import Buckets from './bucket';
+            
+           
             function App() {
-                return (
-                  <Router>
+              return (
+                 <Router>
                     <div className="App">
                       <Navbar/>
                       <Navbar2 />
@@ -26,7 +28,7 @@ import Buckets from './bucket';
                        </div>
                     </div>
                   </Router>
-                );
+                      );
             }
 
 export default App;
